@@ -32,3 +32,5 @@ markdown_extensions:
   # - md_in_html
   
 
+copyright: |
+  &copy; 2023 <a href="https://github.com/DaryaYuk"  target="_blank" rel="noopener">Darya Yukovich</a>
