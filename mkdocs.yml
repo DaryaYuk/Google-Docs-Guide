@@ -1,0 +1,34 @@
+site_name: Google Docs guide
+
+nav:
+  # - Get to know Google Docs:
+  #   - Overview: get-to-know-google-docs/overview.md
+  - Get started with Google Docs:
+    - Create a document: get-started-with-Docs/creating-a-document.md
+    - Manage access: get-started-with-Docs/managing-access.md
+    - Manage settings: get-started-with-Docs/managing-settings.md
+    - Format the text: get-started-with-Docs/formatting-the-text.md
+    - Manage add-ons: get-started-with-Docs/managing-add-ons.md
+
+
+theme:
+  name: material
+  features:
+    - navigation.path
+  palette:
+    primary: custom
+    scheme: google
+  logo: assets/logo.png
+extra_css:
+  - stylesheets/extra.css
+
+  
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+  # - attr_list
+  # - md_in_html
+  
+
